@@ -138,7 +138,7 @@ class firewalld::zone::base (
 #      },],}
 #
 define firewalld::zone(
-  $target = '',
+  $target = '%%REJECT%%',
   $short = '',
   $description = '',
   $interfaces = [],
